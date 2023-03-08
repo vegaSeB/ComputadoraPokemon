@@ -5,6 +5,8 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import co.edu.unbosque.controller.Cajas;
+
 public class Servidor extends Thread{
 	
 	private ServerSocket servidor;
@@ -13,9 +15,12 @@ public class Servidor extends Thread{
 	private ObjectOutputStream enviar;
 	private int port;
 	private String address;
+	private Cajas caja1,caja2,caja3;
 	
 	public Servidor(int port) {
-		
+		this.caja1 = new Cajas();
+		this.caja2 = new Cajas();
+		this.caja3 = new Cajas();
 		this.servidor = null;
 		this.cliente = null;
 		this.respuesta = null;
@@ -25,7 +30,7 @@ public class Servidor extends Thread{
 	}
 	
 	public void run() {
-		
+		caja1.generarAtaques();
 		String op = "";
 		
 		while(!op.equalsIgnoreCase("cerrar")) {
