@@ -1,6 +1,8 @@
 package co.edu.unbosque.model;
 
-public class ModeloPokemones {
+import java.io.Serializable;
+
+public class ModeloPokemones implements Serializable{
 	private String tipo1, tipo2, grupo_huevo, mote, ataque1, ataque2, ataque3, ataque4;
 	private int nivel;
 	public ModeloPokemones(String tipo1, String tipo2, String grupo_huevo, String mote, String ataque1, String ataque2,

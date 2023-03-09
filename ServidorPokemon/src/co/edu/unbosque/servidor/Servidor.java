@@ -5,7 +5,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import co.edu.unbosque.controller.Cajas;
+import co.edu.unbosque.model.Cajas;
 
 public class Servidor extends Thread{
 	

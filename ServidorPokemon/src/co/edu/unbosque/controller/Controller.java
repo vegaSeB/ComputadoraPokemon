@@ -1,12 +1,14 @@
 package co.edu.unbosque.controller;
 
-import co.edu.unbosque.servidor.Servidor;
+import co.edu.unbosque.model.Cajas;
 
 public class Controller {
 	
 	public Controller() {
-		Servidor server = new Servidor(5000);
-		server.start();
+		Cajas ma = new Cajas();
+		ma.agregarPokemonesArchivo();
+//		Servidor server = new Servidor(5000);
+//		server.start();
 		
 	}
 

@@ -1,0 +1,72 @@
+Planta;No tiene 2 tipos;Campo;Chespin;Reemplazo;5
+Planta;No tiene 2 tipos;Campo;Quilladin;Reemplazo;23
+Planta;Lucha;Campo;Chesnaught;Reemplazo;36
+Fuego;No tiene 2 tipos;Campo;Fennekin;Reemplazo;1
+Fuego;No tiene 2 tipos;Campo;Braixen;Reemplazo;7
+Fuego;Psiquico;Campo;Delphox;Reemplazo;22
+Agua;No tiene 2 tipos;Agua;Froakie;Reemplazo;16
+Agua;No tiene 2 tipos;Agua;Frogadier;Reemplazo;3
+Agua;Siniestro;Agua;Greninja;Reemplazo;16
+Normal;No tiene 2 tipos;Campo;Bunnelby;Reemplazo;16
+Normal;Tierra;Campo;Niggersby;Reemplazo;16
+Normal;Volador;Volador;Fletchling;Reemplazo;10
+Fuego;Volador;Volador;Fletchinder;Reemplazo;14
+Fuego;Volador;Volador;Talonflame;Reemplazo;33
+Bicho;No tiene 2 tipos;Bicho;Scatterbug;Reemplazo;4
+Bicho;No tiene 2 tipos;Bicho;Spewpa;Reemplazo;27
+Bicho;No tiene 2 tipos;Bicho;Vivillon;Reemplazo;21
+Fuego;Normal;Campo;Litleo;Reemplazo;12
+Fuego;Normal;Campo;Pyroar;Reemplazo;16
+Hada;No tiene 2 tipos;Hada;Flabebe;Reemplazo;23
+Hada;No tiene 2 tipos;Hada;Floette;Reemplazo;33
+Hada;No tiene 2 tipos;Hada;Florges;Reemplazo;3
+Planta;No tiene 2 tipos;Campo;Skiddo;Reemplazo;7
+Planta;No tiene 2 tipos;Campo;Gogoat;Reemplazo;27
+Lucha;No tiene 2 tipos;Campo;Pancham;Reemplazo;13
+Lucha;Siniestro;Campo;Pangoro;Reemplazo;8
+Normal;No tiene 2 tipos;Campo;Furfrou;Reemplazo;6
+Psiquico;No tiene 2 tipos;Campo;Espurr;Reemplazo;26
+Psiquico;No tiene 2 tipos;Campo;Meowstic;Reemplazo;36
+Acero;Fantasma;Mineral;Honedge;Reemplazo;8
+Acero;Fantasma;Mineral;Doublade;Reemplazo;28
+Acero;Fantasma;Mineral;Aegislash;Reemplazo;38
+Hada;No tiene 2 tipos;Hada;Spiritzee;Reemplazo;3
+Hada;No tiene 2 tipos;Hada;Aromatisse;Reemplazo;9
+Hada;No tiene 2 tipos;Hada;Swirlix;Reemplazo;19
+Hada;No tiene 2 tipos;Hada;Slurpuff;Reemplazo;25
+Siniestro;Psiquico;Agua;Inkay;Reemplazo;4
+Siniestro;Psiquico;Agua;Malamar;Reemplazo;6
+Roca;Agua;Agua;Binacle;Reemplazo;7
+Roca;Agua;Agua;Barbaracle;Reemplazo;17
+Veneno;Agua;Agua;Skrlep;Reemplazo;27
+Veneno;Dragon;Agua;Dragalge;Reemplazo;14
+Agua;No tiene 2 tipos;Agua;Clauncher;Reemplazo;15
+Agua;No tiene 2 tipos;Agua;Clawitzer;Reemplazo;35
+Electrico;Normal;Monstruo;Helioptile;Reemplazo;1
+Electrico;Normal;Monstruo;Heliolisk;Reemplazo;2
+Roca;Dragon;Monstruo;Tyrunt;Reemplazo;22
+Roca;Dragon;Monstruo;Tyrantrum;Reemplazo;32
+Roca;Helio;Monstruo;Amaura;Reemplazo;16
+Roca;Helio;Monstruo;Aurorus;Reemplazo;26
+Hada;No tiene 2 tipos;Campo;Sylveon;Reemplazo;39
+Lucha;Volador;Humanoide;Hawlucha;Reemplazo;38
+Electrico;Hada;Campo;Denenne;Reemplazo;11
+Roca;Hada;Hada;Carbink;Reemplazo;12
+Dragon;No tiene 2 tipos;Dragon;Goomy;Reemplazo;19
+Dragon;No tiene 2 tipos;Dragon;Sliggoo;Reemplazo;29
+Dragon;No tiene 2 tipos;Dragon;Goodra;Reemplazo;5
+Acero;Hada;Mineral;Klefki;Reemplazo;7
+Fantasma;Planta;Planta;Phamtump;Reemplazo;27
+Fantasma;Planta;Planta;Trevenant;Reemplazo;14
+Fantasma;Planta;Amorfo;Pumpkaboo;Reemplazo;31
+Fantasma;Planta;Amorfo;Gourgeist;Reemplazo;20
+Hielo;No tiene 2 tipos;Monstruo;Bergmite;Reemplazo;39
+Hielo;No tiene 2 tipos;Monstruo;Avalugg;Reemplazo;29
+Volador;Dragon;Volador;Noibat;Reemplazo;32
+Volador;Dragon;Volador;Noivern;Reemplazo;32
+Hada;No tiene 2 tipos;Ninguno;Xerneas;Reemplazo;12
+Siniestro;Volador;Ninguno;Yveltal;Reemplazo;8
+Dragon;Tierra;Ninguno;Zygarde;Reemplazo;18
+Roca;Hada;Ninguno;Diancie;Reemplazo;28
+Psiquico;Fantasma;Ninguno;Hoopa;Reemplazo;24
+Fuego;Agua;Ninguno;Volcanion;Reemplazo;22
