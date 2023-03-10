@@ -28,11 +28,11 @@ public class Cliente extends Thread{
 
 	}
 	
-	public void enviar() {
+	public void enviar(String msg) {
 		try {
 			cliente = new Socket(address, port);
 			enviar = new ObjectOutputStream(cliente.getOutputStream());
-			enviar.writeObject("cerrar");
+			enviar.writeObject(msg);
 			enviar.close();
 			cliente.close();
 
@@ -54,7 +54,7 @@ public Object recibir(String cedula) {
 			servidor = new ServerSocket(port+1);
 			cliente = servidor.accept();
 			recibir = new ObjectInputStream(cliente.getInputStream());
-			String aux = (String) recibir.readObject();
+			Object aux = recibir.readObject();
 			if (aux == null) {
 				cliente.close();
 				enviar.close();

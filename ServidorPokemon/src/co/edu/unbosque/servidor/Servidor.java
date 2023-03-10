@@ -2,10 +2,11 @@ package co.edu.unbosque.servidor;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import co.edu.unbosque.controller.Cajas;
+import co.edu.unbosque.model.Cajas;
 
 public class Servidor extends Thread{
 	
@@ -61,6 +62,10 @@ public class Servidor extends Thread{
 			enviar.close();
 			recibir.close();
 			cliente.close();
+				
+			}catch(BindException e) {
+				
+				this.port = port+4;
 				
 			}catch(Exception e) {
 				

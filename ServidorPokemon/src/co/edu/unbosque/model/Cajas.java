@@ -1,11 +1,9 @@
-package co.edu.unbosque.controller;
+package co.edu.unbosque.model;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
-
-import co.edu.unbosque.model.ModeloPokemones;
 
 public class Cajas {
 	private ArrayList<ModeloPokemones> pokemones;

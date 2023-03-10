@@ -10,9 +10,9 @@ public class Controller {
 	
 	public Controller() {
 		
-		Cliente server = new Cliente("localhost", 5000);
-		server.start();
-		server.enviarCajas("caja1", new ArrayList<JPanel>());
+		Cliente cliente = new Cliente("localhost", 5000);
+		cliente.start();
+		cliente.enviar("cerrar");
 		
 	}
 
