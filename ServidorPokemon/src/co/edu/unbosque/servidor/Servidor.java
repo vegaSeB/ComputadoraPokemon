@@ -6,7 +6,7 @@ import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import co.edu.unbosque.model.Cajas;
+import co.edu.unbosque.model.PokemonesDAO;
 
 public class Servidor extends Thread{
 	
@@ -16,12 +16,12 @@ public class Servidor extends Thread{
 	private ObjectOutputStream enviar;
 	private int port;
 	private String address;
-	private Cajas caja1,caja2,caja3;
+	private PokemonesDAO caja1,caja2,caja3;
 	
 	public Servidor(int port) {
-		this.caja1 = new Cajas();
-		this.caja2 = new Cajas();
-		this.caja3 = new Cajas();
+		this.caja1 = new PokemonesDAO();
+		this.caja2 = new PokemonesDAO();
+		this.caja3 = new PokemonesDAO();
 		this.servidor = null;
 		this.cliente = null;
 		this.respuesta = null;
@@ -31,7 +31,6 @@ public class Servidor extends Thread{
 	}
 	
 	public void run() {
-		caja1.generarAtaques();
 		String op = "";
 		
 		while(!op.equalsIgnoreCase("cerrar")) {
@@ -48,6 +47,8 @@ public class Servidor extends Thread{
 				respuesta = new Socket(address,port+1);
 				
 			if(op.equalsIgnoreCase("caja1")) {
+				caja1.generarAtaques();
+				caja1.agregarPokemonesDAO();
 				
 				enviar = new ObjectOutputStream(respuesta.getOutputStream());
 				enviar.writeObject(op);
